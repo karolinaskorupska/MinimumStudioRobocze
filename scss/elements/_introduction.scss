@@ -1,0 +1,20 @@
+section .introduction{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: green;
+    
+    &__content{
+        background-color: greenyellow;
+        width: 70%;
+        img{
+            width: 100%;
+        }
+
+    }
+    &__side-bar{
+        background-color: hotpink;
+    }
+
+
+}
